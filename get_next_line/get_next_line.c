@@ -6,7 +6,7 @@
 /*   By: njantsch <njantsch@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/05 12:57:29 by njantsch          #+#    #+#             */
-/*   Updated: 2023/05/05 17:22:03 by njantsch         ###   ########.fr       */
+/*   Updated: 2023/06/20 13:18:57 by njantsch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ char	*buff_trim(char *buffer)
 		free(buffer);
 		return (NULL);
 	}
-	new = ft_calloc((ft_strlen(buffer) + 1) - i, sizeof(char));
+	new = ft_calloc((ft_strlen_gnl(buffer) + 1) - i, sizeof(char));
 	if (!new)
 		return (NULL);
 	i++;
