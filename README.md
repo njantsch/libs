@@ -1,4 +1,4 @@
-# libs
+# Custom C Library: libs
 
 ![C Language](https://img.shields.io/badge/language-C-blue.svg)
 
